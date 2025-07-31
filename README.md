@@ -46,3 +46,11 @@ III. Running Instructions
 Run the scripts in order: data_preprocessing.R → DEGs_analysis.R → enrichment_analysis.R → core_genes_analysis.R;
 All input file paths need to be modified according to their actual storage locations;
 If KEGG online connection fails, the script will automatically download offline cache data (approximately 100MB), so ensure network connectivity.
+
+
+Data sources：https://www.cgga.org.cn/
+If you use this part of the data (or method included in it), please consider to cite:
+1. Zhao, Z., Zhang, KN., Wang, QW., et al. Chinese Glioma Genome Atlas (CGGA): A Comprehensive Resource with Functional Genomic Data from Chinese Glioma Patients (2021). Genomics, Proteomics & Bioinformatics 19(1):1-12.
+2. Zhang, K., Liu, X., Li, G,. Clinical management and survival outcomes of patients with different molecular subtypes of diffuse gliomas in China (2011–2017): a multicenter retrospective study from CGGA. Cancer Biol Med 19, 1460-1476. 10.20892/j.issn.2095-3941.2022.0469. >
+3. Wang, Y., Qian, T., You, G., et al. (2015). Localizing seizure-susceptible brain regions associated with low-grade gliomas using voxel-based lesion-symptom mapping. NEURO-ONCOLOGY. 17(2): 282-288.
+4. Liu, X., Li, Y., Qian, Z., et al. (2018). A radiomic signature as a non-invasive predictor of progression-free survival in patients with lower-grade gliomas. NEUROIMAGE-CLINICAL. 20(1070-1077.
